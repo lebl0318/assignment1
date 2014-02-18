@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; } /* forefox, microsoft, opera, safari and chrome, etc */
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; } /* standard */
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+    
+    -moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+    font-family: arial, "sans-serif";
+}
+.masthead {
+    background-color: #E65C8A;
+    overflow: hidden; 
+}
+.logo {
+    height: 6rem;
+    width: auto;
+    margin: .5rem 5%;
+}
+body {
+    background-color: #FEE4E1;
+}
+ins {
+    color: #E65C8A;
+    text-decoration: none; /
+}
+h1 {
+    font-family: georgia, "serif";
+    font-size: 3rem; /* 1 rem = 16 px */
+    font-weight: bolder;
+    color: #E65C8A;
+    border-top: 8px dotted #FFE066;
+    border-bottom: 8px dotted #FFE066;
+    text-shadow: #dcdcdc 2px 2px
+}
+figure {
+    margin: 0 auto 1.5rem; /* auto in case we want smaller and keeps it centered */
+    width: 100%; /* 80% would shrink */
+}
+figcaption {
+    margin: .5rem 0 0;
+    font-size: .75rem;
+    color: #E65C8A
+}
+blockquote {
+    margin: 0;
+    padding: 0 0 0 10%;
+    overflow: hidden;
+}
+blockquote p {
+    font-size: .85rem;
+}
+blockquote span {
+    font-weight: normal;
+    float: right;
+    margin: 1.55rem 0;
+}
+blockquote p:before {
+    content: "“";
+    font-size: 5rem;
+    color: #E65C8A;
+    float: left;
+    margin: .25rem 0 0 -2rem; /* left rem bc we want quotemark to stay with quote */
+}
+blockquote p:after {
+    content: "”";
+    font-size: 3rem;
+    color: #E65C8A;
+    position: absolute;
+    margin: .5rem 0 0;
+}
+h2 {
+    font-family: georgia;
+    font-size: 1.5rem;
+    color: #E65C8A
+}
+h3 {
+    font-family: georgia;
+    font-size: 1.5rem;
+    color: #E65C8A
+}
+hr {
+    border: solid 2px #FFE066;
+}
+footer {
+    background-color: #FFE066;
+    overflow: hidden;
+}
+footer p {
+    margin: .5rem 2 5rem;
+    color: #E65C8A;
+    font-size: .75rem;
+}
+small {
+    color: #E65C8A
+}
+
