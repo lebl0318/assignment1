@@ -88,6 +88,9 @@ h2 {
     font-size: 1.5rem;
     color: #E65C8A
 }
+ul li {
+    list-style-image: url(../images/spoon.svg);
+}
 h3 {
     font-family: georgia;
     font-size: 1.5rem;
