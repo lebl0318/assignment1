@@ -29,6 +29,14 @@ html {
     width: auto;
     margin: .5rem 5%;
 }
+.billboard {
+    overflow:hidden;
+    background-image: url(../images/bow2.jpg);
+    background-color:white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:20rem;
+}
 body {
     background-color: #FEE4E1;
 }
@@ -98,6 +106,16 @@ h3 {
 }
 hr {
     border: solid 2px #FFE066;
+}
+h4 {
+    font-weight:bold;
+    font-size: 1.25rem;
+    background-color:rgba(255, 0, 0, .2);
+    text-transform: uppercase;
+    letter-spacing:.01rem;
+    margin: 6rem 0;
+    padding: .25rem 5%;
+    color: #fff
 }
 footer {
     background-color: #FFE066;
