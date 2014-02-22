@@ -37,6 +37,10 @@ html {
     background-position: center center;
     background-size:20rem;
 }
+img { 
+	width: 100%;
+    display: block;
+}
 body {
     background-color: #FEE4E1;
 }
