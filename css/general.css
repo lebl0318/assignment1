@@ -67,7 +67,7 @@ blockquote {
     overflow: hidden;
 }
 blockquote p {
-    font-size: .85rem;
+    font-size: .9rem;
 }
 blockquote span {
     font-weight: normal;
@@ -79,14 +79,14 @@ blockquote p:before {
     font-size: 5rem;
     color: #E65C8A;
     float: left;
-    margin: .25rem 0 0 -2rem; /* left rem bc we want quotemark to stay with quote */
+    margin: 1rem 0 0 -1rem; /* left rem bc we want quotemark to stay with quote */
 }
 blockquote p:after {
     content: "”";
     font-size: 3rem;
     color: #E65C8A;
     position: absolute;
-    margin: .5rem 0 0;
+    margin: .2rem 0 0;
 }
 h2 {
     font-family: georgia;
