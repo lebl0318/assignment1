@@ -120,8 +120,9 @@ h4 {
     background-color:white;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:20rem;
+    background-size:24rem;
     background-repeat: no-repeat;
+    width: 100%;
 }
 footer {
     background-color: #FFE066;
